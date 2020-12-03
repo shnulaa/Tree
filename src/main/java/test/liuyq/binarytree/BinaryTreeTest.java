@@ -26,17 +26,6 @@ public class BinaryTreeTest {
       binaryTree.insert(rad);
     });
 
-    binaryTree.insert(34);
-
-    // TreeNode treeNode = binaryTree.search(34);
-    // System.out.println(treeNode.getLeft());
-    // System.out.println(treeNode.getRight());
-
-
-    // binaryTree.insert(random.nextInt());
-    // binaryTree.insert(random.nextInt());
-    // binaryTree.insert(random.nextInt());
-
 
     /* for (binaryTree.get) */
 
