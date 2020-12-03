@@ -8,14 +8,29 @@ package test.liuyq.binarytree;
 public class BinaryTree {
   private TreeNode root;
 
+  /**
+   * 
+   * @param root
+   */
   public BinaryTree(TreeNode root) {
     this.root = root;
   }
 
+  /**
+   * 
+   * @param key
+   * @return
+   */
   public TreeNode search(int key) {
     return search(root, key);
   }
 
+  /**
+   * 
+   * @param node
+   * @param key
+   * @return
+   */
   public TreeNode search(TreeNode node, int key) {
     if (node == null || node.getKey() == key) {
       return node;
@@ -36,6 +51,32 @@ public class BinaryTree {
   public void insert(int key) {
     insert(null, root, key);
   }
+
+  /**
+   * 
+   * @param key
+   */
+  public void delete(int key) {
+    
+
+
+
+  }
+//
+//  /**
+//   * 
+//   * @param node 递归
+//   * @param key
+//   */
+//  public void delete(TreeNode node, int key) {
+//    // 最后删除实现条件 
+//    if (node == null || node.getKey() == key) {
+//
+//
+//    }
+//
+//  }
+
 
 
   /**

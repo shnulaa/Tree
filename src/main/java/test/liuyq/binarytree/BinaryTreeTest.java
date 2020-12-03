@@ -15,7 +15,6 @@ public class BinaryTreeTest {
    * @param args
    */
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
 
     BinaryTree binaryTree = new BinaryTree(ROOT_NODE);
     Random random = new Random();
