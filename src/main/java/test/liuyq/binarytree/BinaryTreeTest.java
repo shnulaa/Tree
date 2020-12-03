@@ -49,6 +49,15 @@ public class BinaryTreeTest {
     //
     // }
 
+    while ((node = node.getLeft()) != null) {
+      System.out.print(node.getKey() + " ");
+    }
+    node = ROOT_NODE;
+    System.out.println("---------------------");
+    while ((node = node.getRight()) != null) {
+      System.out.print(node.getKey() + " ");
+    }
+
   }
 
 
