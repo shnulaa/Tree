@@ -7,10 +7,15 @@ package test.liuyq.binarytree;
  */
 public class TreeNode {
 
+  static enum ParentSide {
+    LEFT, RIGHT;
+  }
+
   // private TreeNode parent; // 父
   private TreeNode left; // 左
   private TreeNode right; // 右
   private int key; // 数值
+  private ParentSide parentSide; // 父节点 左 右
 
   /**
    * 
@@ -58,6 +63,14 @@ public class TreeNode {
 
   public void setKey(int key) {
     this.key = key;
+  }
+
+  public ParentSide getParentSide() {
+    return parentSide;
+  }
+
+  public void setParentSide(ParentSide parentSide) {
+    this.parentSide = parentSide;
   }
 
 
